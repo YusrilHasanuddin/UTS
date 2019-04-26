@@ -2,7 +2,7 @@ package com.company;
 
 
 public class Komputer {
-    CPU cpu = new CPU();
+    private CPU cpu = new CPU();
 
     Komputer(CPU cpu){
         this.cpu = cpu;
